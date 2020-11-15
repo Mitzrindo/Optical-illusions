@@ -7,6 +7,7 @@ function setup()
     linex = 0
     plusminus = 255 / WIDTH
     viewer.mode = FULLSCREEN
+    viewer.retainedBacking = true
 end
 
 function draw()
